@@ -1,0 +1,62 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+
+# Visual Studio Code settings
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Rider settings
+.idea/
+
+# ASP.NET Core secrets
+secrets.json
+
+# IIS/ASP.NET specific
+*.vspscc
+*.vssscc
+.vs/
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+
+# Other potentially unwanted files
+*.swp
+*.bak
+*.tmp
+*.old
+
+# .NET generated files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# Optional: Docker-related
+docker-compose.override.yml
+.env
+.env.*
+
+# Optional: ignore launch profiles if personal
+Properties/launchSettings.json
+
+# Optional: SQLite
+*.db
+*.db-shm
+*.db-wal
